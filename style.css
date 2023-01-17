@@ -17,3 +17,11 @@ body {
 section {
   padding-top: 4rem;
 }
+
+.projeck-img {
+  width: 100%;
+}
+
+#projeck .row > * {
+  padding: 0;
+}

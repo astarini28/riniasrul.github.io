@@ -5,6 +5,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+
+
+
+
+
+
+<!--AOS-->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     
@@ -45,9 +55,9 @@
 
     <!--Jumbotron-->
     <section class="jumbotron text-center">
-      <img src="img/rini foto.jpg" alt="Rini Asrul" width="100" class="rounded-circle img-thumbnail" />
+      <img src="img/rini foto.jpg" alt="Rini Asrul" width="100" class="rounded-circle img-thumbnail"  />
       <h1 class="display-4">Rini Asrul</h1>
-      <p class="lead">Staf IT</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#df7dec"
@@ -60,17 +70,17 @@
 
     <!--About-->
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="fade-down">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" >
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sapiente deleniti consequuntur aut sequi quia iste accusantium laborum maiores doloribus.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatum incidunt ad autem ut, nihil sequi quaerat, ipsam voluptate dolor consectetur explicabo sed at animi.</p>
           </div>
         </div>
@@ -95,7 +105,7 @@
         </div>
         <div class="row">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <img src="img/galery/1.jpg" class="card-img-top" alt="Galery 1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -103,7 +113,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
               <img src="img/galery/2.jpg" class="card-img-top" alt="Galery 2" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -111,7 +121,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300"> 
               <img src="img/galery/3.jpg" class="card-img-top" alt="Galery 3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -119,7 +129,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
               <img src="img/galery/4.jpg" class="card-img-top" alt="Galery 4" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -127,7 +137,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left">
               <img src="img/galery/5.jpg" class="card-img-top" alt="Galery 5" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -135,7 +145,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left">
               <img src="img/galery/6.jpg" class="card-img-top" alt="Galery 6" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -153,6 +163,65 @@
       </svg>
     </section>
     <!--Akhir Galery-->
+
+       <!--Projeck-->
+       <section id="galery"> 
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+            <h2>Projeck</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+              <div class="col-md-3">
+              <a href="#">
+               <img src="img/galery/thumbnail/2.jpg" alt="Gambar 2" class="img-fluid projeck-img aos-animate" data-aos="fade-down"/>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+               <img src="img/galery/thumbnail/3.jpg" alt="Gambar 3" class="img-fluid projeck-img aos-animate" data-aos="fade-down"/>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+               <img src="img/galery/thumbnail/4.jpg" alt="Gambar 4" class="img-fluid projekck-img aos-animate" data-aos="fade-down"/>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+               <img src="img/galery/thumbnail/5.jpg" alt="Gambar 5" class="img-fluid projeck-img aos-animate" data-aos="fade-down"/>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+               <img src="img/galery/thumbnail/6.jpg" alt="Gambar 6" class="img-fluid projeck-img aos-animate" data-aos="fade-down"/>
+              </a>
+            </div>       
+            <div class="col-md-3">
+              <a href="#">
+               <img src="img/galery/thumbnail/7.jpg" alt="Gambar 7" class="img-fluid projeck-img aos-animate" data-aos="fade-down"/>
+              </a>
+            </div>     
+            <div class="col-md-3">
+              <a href="#">
+               <img src="img/galery/thumbnail/8.jpg" alt="Gambar 8" class="img-fluid projeck-img aos-animate" data-aos="fade-down"/>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+               <img src="img/galery/thumbnail/9.jpg" alt="Gambar 9" class="img-fluid projeck-img aos-animate" data-aos="fade-down"/>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+               <img src="img/galery/thumbnail/10.jpg" alt="Gambar 10" class="img-fluid projeck-img aos-animate" data-aos="fade-down"/>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Akhir Projeck-->
 
     <!--Contact-->
     <section id="contact">
@@ -196,6 +265,8 @@
     </section>
     <!--Akhir Contact-->
 
+ 
+
     <!-- Footer-->
     <footer class="bg-primary text-white text-center pb-5">
       <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/rinasrul28/" class="text-white fw-bold">Rini Asrul</a></p>
@@ -205,7 +276,31 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   
-     
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll('.gallery-img');
+
+      galleryImage.forEach ((img, i) => {
+        img.dataset.aos = 'fade-down';
+        img.datset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      })
+      AOS.init({
+        once: true,
+        duration: 2000,
+      });
+    </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/TextPlugin.min.js"></script>
+<script>
+  gsap.registerPlugin(TextPlugin);
+  gsap.to('.lead',{duration: 2, delay: 1.5, text: 'Staf IT'});
+  gsap.from('.jumbotron img',{duration: 1, rotateY: 360, opacity: 0,});
+  gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity:0, ease: 'bounce'});
+  gsap.from('.display-4', { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'back' });
+</script> 
+
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbwpn78DkoeEZiDN3cllV4IxpWc8T84O_0CzrghmF4aYlLvZ6eUe80KNFa39_nzZkELZkw/exec'
       const form = document.forms['Contack-form'];
